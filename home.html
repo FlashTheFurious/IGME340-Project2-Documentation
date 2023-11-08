@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Documentation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        padding: 20px;
+      }
+      h1,
+      h2,
+      h3 {
+        color: #333;
+      }
+      p,
+      ul {
+        font-size: 16px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      code {
+        background-color: #f4f4f4;
+        padding: 2px 4px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Project Documentation: Higher or Lower Weather Game</h1>
+    </header>
+
+    <section>
+      <h2>Introduction</h2>
+      <p>
+        As the solo developer of this application, I've crafted a simple yet
+        engaging game where users predict whether the next city will be hotter
+        or colder. The journey of creating this app was meticulous and
+        deliberate, adhering closely to the principles of software development.
+      </p>
+    </section>
+
+    <section>
+      <h2>User Controls</h2>
+      <p>
+        Three primary controls were implemented to provide a straightforward
+        user interface:
+      </p>
+      <ul>
+        <li>A button to guess if the next city is hotter.</li>
+        <li>A button to guess if the next city is colder.</li>
+        <li>A submit button to save the high score with the user's name.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>State Persistence</h2>
+      <p>
+        Ensuring that the application retains its state was paramount. By
+        leveraging <code>SharedPreferences</code>, the high scores and user
+        names persist across sessions, providing a seamless experience for
+        returning players.
+      </p>
+    </section>
+
+    <section>
+      <h2>Adherence to D.R.Y. Principles</h2>
+      <p>
+        Throughout the development process, I was vigilant in my efforts to
+        adhere to the "Don't Repeat Yourself" (D.R.Y.) principles. Functions
+        were crafted to handle repetitive tasks such as fetching weather data
+        and storing high scores, which streamlined the codebase and prevented
+        redundancy.
+      </p>
+    </section>
+
+    <section>
+      <h2>References and Resources</h2>
+      <p>Here are some of the key resources I used for this project:</p>
+      <ul>
+        <li>
+          <a href="https://openweathermap.org/api" target="_blank"
+            >OpenWeatherMap API</a
+          >
+          - For fetching real-time weather data.
+        </li>
+        <li>
+          <a href="https://flutter.dev/" target="_blank"
+            >Flutter Documentation</a
+          >
+          - For general development practices and widget usage.
+        </li>
+        <li>
+          <a
+            href="https://dart.dev/guides/language/language-tour"
+            target="_blank"
+            >Dart Language Tour</a
+          >
+          - For understanding the specifics of the Dart language used in
+          Flutter.
+        </li>
+        <!-- Add any other resources that you used -->
+      </ul>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 by [Your Name]. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
