@@ -78,10 +78,22 @@
     <section>
       <h2>API Usage</h2>
       <p>
-        I manually entered a list of some of the major cities of the world into
-        the program to give it a bunch of cities it can randomly choose from.
-        The program randomly selects 2 locations and compares the weather data
-        for them and asks the user the Question of which is hotter or colder.
+        I manually entered a list of some of the cities I have either already
+        visited or plan to visit one day, this acts as a dummy dataset and gives
+        the application a variety of cities it can randomly choose from. The
+        OpenWeather API takes the name of a city and returns me the temperature
+        in Kelvin which I then convert and display in Fahrenheit. The reason I
+        chose Fahrenheit is not because it is the default unit of measure in
+        USA, but because it allows for better game values as compared to
+        Celsius, in which case the difference between temperatures would not
+        seem that significant. While this would be accomplished even better
+        using the much higher values of Kelvin, I have never met a living soul
+        that regulary uses Kevlin in their daily like for weather purposes. And
+        for that reason, Kelvin is out. The program randomly selects 2 cities
+        from the available pool and compares the weather data for them, and asks
+        the user the Question of which is hotter or colder. The game can
+        technically keep on going infitely as long as you keep answering
+        correctly.
       </p>
     </section>
 
